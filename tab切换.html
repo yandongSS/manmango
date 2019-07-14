@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			#container{
+				width: 170px;
+				height: 300px;
+				background: url(images/bg.jpg) no-repeat;
+				padding-top:30px ;
+				margin: 0 auto;
+			}
+		
+			ul{
+				list-style: none;
+				font-size: 14px;
+				padding: 10px;
+			}
+			a{
+				text-decoration: none;
+			}
+			#tab>li{
+				width: 47px;
+				height: 23px;
+				margin: 0 1px;
+				color:#fff;
+				cursor: pointer;
+				background:url(images/menu2.gif) ;
+				text-align: center;
+				line-height: 23px;
+				float: left;
+			}
+			
+			
+			.none{
+				display: none;
+			}
+			.block{
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<ul id="tab">
+				<li class="a" onmouseover="show(1)">小说</li>
+				<li class="a" onmouseover="show(2)">非小说</li>
+				<li class="a" onmouseover="show(3)">少儿</li>
+			</ul>
+			<ul class="book ">
+				<li><a href="">1.时间旅行者的妻子</a></li>
+				<li><a href="">2.时间旅行者的妻子</a></li>
+				<li><a href="">3.时间旅行者的妻子</a></li>
+				<li><a href="">4.时间旅行者的妻子</a></li>
+				<li><a href="">5.时间旅行者的妻子</a></li>
+				<li><a href="">6.时间旅行者的妻子</a></li>
+				<li><a href="">7.时间旅行者的妻子</a></li>
+				<li><a href="">8.时间旅行者的妻子</a></li>
+				
+			</ul>
+			<ul class="book none">
+				<li><a href="">1.人生只如初见</a></li>
+				<li><a href="">2.111111</a></li>
+				<li><a href="">3.222222</a></li>
+				<li><a href="">4.3333333</a></li>
+				<li><a href="">5.444444</a></li>
+				<li><a href="">6.66666666</a></li>
+				<li><a href="">7.777777777</a></li>
+				<li><a href="">8.888888888888</a></li>
+				
+			</ul>
+			<ul class="book none">
+				<li><a href="">1.xxxxxxx</a></li>
+				<li><a href="">2.xddddd</a></li>
+				<li><a href="">3.fffff</a></li>
+				<li><a href="">4.eeeeee</a></li>
+				<li><a href="">5.rrrrrrr</a></li>
+				<li><a href="">6.uuuuuu</a></li>
+				<li><a href="">7.iiiiiiiii</a></li>
+				<li><a href="">8.ooooooooo</a></li>
+				
+			</ul>
+		</div>
+		<script type="text/javascript">
+			var li=document.getElementsByClassName("a")
+			var book=document.getElementsByClassName("book")
+				function show(index){
+					if(index==1){
+						li[0].style.background="url(images/menu1.gif)"
+						book[0].style.display="block"
+						li[1].style.background="url(images/menu2.gif)"
+						book[1].style.display="none"
+						li[2].style.background="url(images/menu2.gif)"
+						book[2].style.display="none"
+					}else if(index==2){
+						li[0].style.background="url(images/menu2.gif)"
+						book[0].style.display="none"
+						li[1].style.background="url(images/menu1.gif)"
+						book[1].style.display="block"
+						li[2].style.background="url(images/menu2.gif)"
+						book[2].style.display="none"
+					}else if(index==3){
+						li[0].style.background="url(images/menu2.gif)"
+						book[0].style.display="none"
+						li[1].style.background="url(images/menu2.gif)"
+						book[1].style.display="none"
+						li[2].style.background="url(images/menu1.gif)"
+						book[2].style.display="block"
+					}
+				}
+			
+		</script>
+	</body>
+</html>
