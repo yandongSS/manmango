@@ -1,0 +1,33 @@
+.nav{
+	margin-top: 0.4rem;
+	/*overflow: hidden;*/
+}
+.nav ul{
+	overflow: hidden;
+	/*background-color: yellow;*/
+	height:0.5rem;
+	/*width: 11rem;*/	
+	position: relative;
+	/*left: 1rem;*/
+	padding-left: 0.12rem;
+}
+.nav li{
+	float: left;
+	/*height: 0.4rem;*/
+	line-height: 0.4rem;
+/*	width: 0.72rem;*/
+	text-align:center;
+	margin-right: 0.13rem;
+}
+.nav li a{
+	/*font-weight: bold;*/
+	font-size: 0.18rem;
+}
+.main ul li{
+	height: 1.5rem;
+	display: flex;
+	justify-content: space-between;
+}
+.main ul li img{
+	width: 1.3rem;
+}

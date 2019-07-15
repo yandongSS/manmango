@@ -1,0 +1,213 @@
+.top{
+	z-index: 999;
+	position: fixed;
+	top:0;
+	height: 0.4rem;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	background-color: #ff5100;
+}
+.top img{
+	margin-top: 0.05rem;
+	margin-left: 0.5rem;
+	width: 0.3rem;
+}
+.top h3{
+	font-size: 0.16rem;
+	margin-top: 0.1rem;
+	margin-left: 1.3rem;
+	color:#fff;
+	position: relative;
+}
+.top:after{
+	content: '';
+	display: block;
+	width: 0.25rem;
+	height: 0.25rem;
+	background: url(../images/icon_arr_back.png) no-repeat;
+	background-size: contain;
+	position: absolute;
+	left:0.2rem;
+	top:0.08rem;
+	
+}
+.main a{
+	display: flex;
+}
+.main .pic img{
+	margin-right: 0.15rem;
+	width: 0.8rem;
+	height: 0.8rem;
+}
+.main ul{
+	margin-top: 0.4rem;
+	margin-bottom: 2rem;
+	padding: 0.1rem;
+	
+}
+.main ul .img img{
+	width: 100%;
+	margin-top: 0.2rem;
+	border-radius: 0.03rem;
+}
+.main .name{
+	font-size:0.14rem;
+	font-weight: bold;
+}
+.main li{
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 0.05rem;
+	width: 100%;
+	height: 1rem;
+}
+.main p:nth-of-type(2) img{
+	float: right;
+	width: 1rem;
+}
+.main p:nth-of-type(2){
+	font-size: 0.15rem;
+	text-indent: 2em;
+}
+.main{
+	padding: 0 0.08rem;
+}
+/*#disstorck{
+	margin-bottom: 0.1rem;
+}*/
+.det li{
+	height: 0.3rem;
+	font-size: 0.15rem;
+	text-align: center;
+	line-height: 0.3rem;
+} 
+.det{
+	margin-top: -2rem;
+}
+.det li span{
+	display: block;
+	width: 3rem;
+}
+.det strong{
+	margin-left: 1rem;
+	color:red;
+}
+.gobuy{
+	color:#fff;
+	background-color:red;
+	width: 100%;
+	height: 0.4rem;
+	font-size: 0.18rem;
+	text-align: center;
+	line-height: 0.4rem;
+	border-radius: 0.05rem;
+	margin-top: -2rem;
+	margin-bottom: 3rem;
+}
+#price{
+	color:red;
+}
+.comment .list ul li{
+	display: flex;
+	/*height: 0.8rem;*/
+	width: 100%;
+}
+.comment .list ul li .userimg img{
+	width:0.3rem;
+	border-radius: 0.5rem;
+	margin-right: 0.2rem;
+}
+.comment .time{
+	font-weight: normal;
+	font-size: 0.12rem;
+}
+.comment .name{
+	display: flex;
+	justify-content: space-between;
+}
+.comment textarea{
+	border: 1px solid #ccc;
+	border-radius: 0.02rem;
+	width: 100%;
+	height: 1rem;
+}
+.comment .tit{
+	width: 100%;
+	background-color: #ccc;
+	font-size: 0.15rem;
+	margin: 0.2rem 0 0.2rem 0;
+	height: 0.3rem;
+	line-height: 0.3rem;
+	color: white;
+	padding-left: 0.1rem;
+	border-radius: 0.02rem;
+}
+.comment .tjdp{
+	background-color: red;
+	color:white;
+	width: 1rem;
+	height: 0.28rem;
+	margin-right: -0.01rem;
+}
+.comment .ctrl{
+	position: absolute;
+	border: 1px solid #ccc;
+	padding-bottom: 0.1rem;
+	height: 0.3rem;
+	width: 100%;
+	background-color: #eee;
+	bottom: 0;
+}
+.comment .ctrl input{
+	border: 1px solid #ccc;
+	border: none;
+	float: right;
+}
+.comment .form{
+	position: relative;
+}
+
+.foot{
+	position: fixed;
+	bottom: 0rem;
+	height: 1.3rem;
+	width: 100%;
+	background-color: #eee;
+	text-align: center;
+	padding-bottom: 1.5rem;
+}
+.foot input{
+	width: 0.6rem;
+	height: 0.3rem;
+	border-radius: 0.05rem;
+	margin: 0.1rem 0.3rem;
+}
+.foot .login ul{
+	margin-bottom: 0.2rem;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+.foot .login li{
+	background-color: #eee;
+	height: 0.3rem;
+	line-height: 0.3rem;
+	flex: 1;
+	border-bottom:1px solid #bbb ;
+	border-left: 1px solid #bbb;
+	border-top: 1px solid #bbb;
+}
+.foot .login li a{
+	font-weight: bold;
+}
+.foot .login li:nth-of-type(1){
+	border-left:none ;
+	border-right:none ;
+}
+/*.foot p{
+	margin-bottom: 0.1rem;
+}*/
+.foot img{
+	/*margin-top: 0.1rem;*/
+	width: 0.15rem;
+}

@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	font-size:100px;
+}
+body{
+	font-size:0.12rem;
+	font-family: "微软雅黑";
+}
+ul{
+	list-style: none;
+	
+}
+a{
+	text-decoration: none;
+	color:#111;
+}
+
